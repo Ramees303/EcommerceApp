@@ -1,0 +1,51 @@
+*{
+	
+	margin: 0%;
+	padding: 0%;
+		box-sizing:border-box;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+body{
+	background-color: dodgerblue; 
+    
+}
+
+.container{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+table{
+	background-color: white;
+	text-align: center;
+	
+}
+
+.topheading{
+	text-align: center;
+	margin:1rem 0;
+	color: white;
+	font-size: 2rem;
+}
+
+.heading1,.heading2{
+	text-align: center;
+	margin:1rem 0;
+}
+
+.heading1{
+	color: greenyellow;
+}
+
+.heading2{
+	color: red;
+}
+
+.table{
+	width: 80%;
+}
+
+

@@ -1,0 +1,49 @@
+*{
+	
+	margin: 0%;
+	padding: 0%;
+		box-sizing:border-box;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+body{
+	background-color: dodgerblue; 
+    
+}
+.topheading{
+    display:flex;
+	justify-content: center;
+	margin-bottom: .8rem;
+	color: white;
+	font-size: 2rem;
+}
+
+.container{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	
+}
+table{
+	background-color: white;
+	text-align: center;
+	
+}
+.table{
+	width: 80%;
+	margin:3rem 0;
+
+}
+
+.msg{
+     text-align: center;
+     margin-bottom: .8rem;	
+     font-size: 1.5rem;
+}
+
+.msg1{
+	color:greenyellow;
+}
+.msg2{
+	color: red;
+}

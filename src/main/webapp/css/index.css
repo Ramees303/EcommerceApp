@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+:root{
+    --primarycolor:#0077C0;
+    --secondarycolor:#7493BC;
+    --thirdcolor:#E6F4F1;
+    --fourthcolor:#F3FAFF;
+    
+    --switchcolor1:#26b0ff;
+    --switchcolor2:#2686ff;
+    --switchcolor3:#265bff;
+    --switchcolor4:#2630ff;
+
+}
+
+body{
+
+
+background: linear-gradient(to right, #fc466b, #3f5efb); 
+
+
+
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    width:42rem;
+    background-color:rgba(255, 255, 255, 0.2);
+    height:25rem;
+    margin:auto;
+    transform:translate(0,10rem);
+    backdrop-filter:blur(1rem);
+    border-radius:.2rem;
+
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+input,select{
+    margin:.3rem;
+    height:2rem;
+    border:none;
+    border-bottom:.1rem solid white;
+    background-color:rgba(255, 255, 255, 0.3);
+    border-radius:.3rem;
+  
+   
+    
+}
+input::placeholder,select{
+    color:black;
+    text-align:center;
+}
+
+option{
+    background-color:white;
+}
+
+
+.button{
+    display:flex;
+    justify-content:space-between;
+}
+
+input[type="submit"]{
+    width:12rem;
+    color:white;
+    background-color:royalblue;
+    border:none;
+}
+
+
+.container-left{
+    height:25rem;
+    width:20rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+input:hover,select:hover {
+    box-shadow:0 0 .1rem .1rem white;
+}
+
+input[type="submit"]:hover{
+    box-shadow:0 0 0 0 ;
+    border-bottom:.1rem solid white;
+}
+
+a{
+	
+	display: flex;
+	justify-content: center;
+	margin-top:.5rem;
+	text-decoration: none;
+	color:#0077C0
+	
+}
+
+
+.container-right{
+    width:20rem;
+    height:30rem;
+    background-color:red;
+    background:url(../gallery/shopping.png);
+    background-size:20rem 20rem;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.rightheading{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    height: 9rem;
+    color:greenyellow;
+
+}
+
+
+.rightheading1{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    height: 9rem;
+    color:red;
+
+}
+
+.rightheading2{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    height: 9rem;
+    color:red;
+
+}
